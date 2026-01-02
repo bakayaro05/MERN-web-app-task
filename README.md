@@ -1,3 +1,4 @@
+<pre>
 Contact Form App
 
 A simple full-stack contact form application built using React for the frontend and Node.js + Express for the backend. The app allows users to submit contact details, performs client-side validation, sends data to an API, and displays submitted contacts dynamically.
@@ -29,3 +30,4 @@ How It Works
 --On submit, form data is sent to the backend API.
 --Backend stores the data and returns the saved contact.
 --Submitted contacts are rendered below the form.
+</pre>
