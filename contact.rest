@@ -1,0 +1,20 @@
+### FOR /GET endpoint.
+GET http://localhost:5000
+
+
+### Enpoint for inserting /contact /POST endpoint
+POST http://localhost:5000/contact
+Content-Type: application/json
+
+{
+
+"username" : "Harish",
+"email" : "123@gmail.com",
+"phone" : "1234567890",
+"message" : "I am first user"
+
+}
+
+### Endpoint for reading /contact /GET endpoint
+GET http://localhost:5000/contact
+Content-Type:  application/json
