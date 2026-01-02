@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
+const API_URL = "https://your-backend.onrender.com/contact";
 function App() {
   const [form, setForm] = useState({
     username : "",
@@ -40,7 +41,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   if (!validate()) return;
 
-  const res = await fetch("http://localhost:5000/contact", {
+  const res = await fetch(API_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(form)
